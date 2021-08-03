@@ -71,3 +71,8 @@ elijah.print_accounts()
 # BankAccount.check_instances()
 felix.display_user_balance()
 # elijah.display_user_balance()
+
+#Note: I was able to get the user to create different accounts. The issue I ran into was giving the account a name. I could hard
+#code the info, but I want to dynamically be able to create a variable name from a string passed as an argument
+#The next thing I might try is ''' x='buffalo'    exec("%s = %d" % (x,2))''' to turn a string into a variable name
+# https://stackoverflow.com/questions/19122345/convert-string-to-variable-name-in-python
